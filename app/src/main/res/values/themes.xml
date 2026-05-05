@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ローディングオーバーレイと同じ背景色をwindowBackgroundに設定 -->
+    <!-- AndroidはonCreate()の前にこの色でウィンドウを描画するため、起動が瞬時に見える -->
+    <style name="WidgetConfigureTheme" parent="android:Theme.DeviceDefault.Light.Dialog">
+        <item name="android:windowBackground">#FAFAFA</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowFullscreen">false</item>
+    </style>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DateTimeWidget</string>
+    <string name="configure_title">ウィジェット設定</string>
+    <string name="pref_label">都道府県</string>
+    <string name="station_label">観測地点（AMeDAS）</string>
+    <string name="bg_color_label">背景色</string>
+    <string name="text_color_label">文字色</string>
+    <string name="shadow_label">文字に影をつける</string>
+    <string name="apply_button">適用</string>
+    <string name="loading">読み込み中...</string>
+    <string name="load_error">地点データの取得に失敗しました</string>
+</resources>

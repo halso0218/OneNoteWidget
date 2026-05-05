@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 時計フェイス（左）＋太陽（右下）のアイコン。108×108dp の safe zone (18-90) に収める -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- 時計の白円 (中心 46,50 半径 28) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M46,22 A28,28,0,1,1,46,78 A28,28,0,1,1,46,22 Z"/>
+
+    <!-- 時針 (10時の方向) -->
+    <path
+        android:strokeColor="#1565C0"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M46,50 L32,40"/>
+
+    <!-- 分針 (2時の方向) -->
+    <path
+        android:strokeColor="#1565C0"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M46,50 L62,34"/>
+
+    <!-- 中心点 -->
+    <path
+        android:fillColor="#1565C0"
+        android:pathData="M46,47 A3,3,0,1,1,46,53 A3,3,0,1,1,46,47 Z"/>
+
+    <!-- 太陽 (中心 82,80 半径 11) -->
+    <path
+        android:fillColor="#FFD600"
+        android:pathData="M82,69 A11,11,0,1,1,82,91 A11,11,0,1,1,82,69 Z"/>
+
+    <!-- 太陽の光芒 (8方向) -->
+    <path
+        android:strokeColor="#FFD600"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M82,66 L82,62
+                          M90,69 L93,66
+                          M95,80 L99,80
+                          M90,91 L93,94
+                          M82,94 L82,98
+                          M74,91 L71,94
+                          M69,80 L65,80
+                          M74,69 L71,66"/>
+
+</vector>
